@@ -1,3 +1,54 @@
+//<<<<<<< main
+#include<stdio.h>
+void input(int A[],int n)
+{
+    int i;
+    printf("Enter %d number of elements: ",n);
+    for(i=0;i<n;i++)
+        scanf("%d",&A[i]);
+}
+void display(int A[],int n)
+{
+    int i;
+    for(i=0;i<n;i++)
+        printf("%d ",A[i]);
+}
+void swap(int j,int iMin,int A[])
+{
+        int temp;
+        temp=A[j];
+        A[j]=A[iMin];
+        A[iMin]=temp;
+}
+void selection_Sort(int a[], int n)
+{
+	int i, j, iMin;
+	for (j = 0; j < n-1; j++)
+	{
+		iMin = j;
+		for (i = j+1; i < n; i++)
+		{
+			if (a[i] < a[iMin])
+				iMin = i;
+		}
+		if (iMin != j)
+			swap(j, iMin,a);
+	}
+}
+void main()
+{
+    int A[20],n;
+    printf("\nEnter the size of the array:");
+    scanf("%d",&n);
+    input(A,n);
+    printf("\nArray before sorting:");
+    display(A,n);
+    selectionSort(A,n);
+    printf("\nArray after sorting:");
+    display(A,n);
+}
+
+//=======
 #include <stdio.h>
 
 void swap(int *input1, int *input2)
@@ -7,7 +58,7 @@ void swap(int *input1, int *input2)
     *input2 = temp;
 }
 
-void selectionSort(int *array, const size_t size)
+void selection_Sort(int *array, const size_t size)
 {
     for (int i = 0; i < size; ++i)
     {
@@ -34,3 +85,4 @@ int main()
 
     return 0;
 }
+//>>>>>>> main
