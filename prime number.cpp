@@ -20,10 +20,15 @@ int main() {
             }
         }
     }
+    
+    cout << n ;
+    
     if (isPrime)
-        cout << n << " is a prime number";
+        cout << " is ";
     else
-        cout << n << " is not a prime number";
+        cout << " is not ";
+    
+    cout << " a prime number.";
 
     return 0;
 }
