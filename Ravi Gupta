@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name="description" content="Dual Search">
+  <meta name="keywords" content="DualSearch, Dual Search, double search">
+  <meta name="author" content="Ravi Gupta">
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script async src="https://cse.google.com/cse.js?cx=004214397457894850199:wviyxqe2ahq"></script>
+    <script data-ad-client="ca-pub-9949138104490910" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <Style>
+        .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2px;
+    height: 90vh;
+    overflow:auto;"
+}
+    </Style>
+</head>
+<body style="overflow:hidden;">
+
+    <u><h3 style="text-align: center;">Dual Search Powered by Google and Created by Ravi Gupta</h3></u>
+    <div class="grid-container">
+
+    <div style="overflow:auto;" >
+    <div class="gcse-search" ></div>
+    </div>
+
+    <div style="overflow:auto;" >
+        <div class="gcse-search" ></div>
+        </div>
+
+        <div>
+
+</body>
+</html>
+
+
