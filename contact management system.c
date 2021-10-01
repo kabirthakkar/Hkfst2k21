@@ -1,4 +1,3 @@
-//LEARNPROGRAMO - PROGRAMMING MADE SIMPLE
 #include<stdio.h>
 
 #include<conio.h>
@@ -33,7 +32,7 @@ int main()
 
 main:
 
-    system("cls");    /* ************Main menu ***********************  */
+    system("cls");    
 
     printf("\n\t **** Welcome to Contact Management System ****");
 
@@ -53,7 +52,7 @@ main:
 
         break;
 
-        /* *********************Add new contacts************  */
+        
 
     case 1:
 
@@ -102,7 +101,7 @@ main:
 
         break;
 
-        /* *********************list of contacts*************************  */
+        /* list of contacts */
 
     case 2:
 
@@ -152,7 +151,7 @@ main:
 
         break;
 
-        /* *******************search contacts**********************  */
+        /* search contacts */
 
     case 3:
 
@@ -229,7 +228,7 @@ main:
 
         break;
 
-        /* *********************edit contacts************************/
+        /* edit contacts*/
 
     case 4:
 
@@ -295,7 +294,7 @@ main:
 
         break;
 
-        /* ********************delete contacts**********************/
+        /* delete contacts*/
 
     case 5:
 
